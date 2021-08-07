@@ -1,7 +1,7 @@
 // declare class
 modeule.exports = class Shape{
     constructor(c){
-       let color=c===undefined?"blue":c;
+       this.color=c===undefined?"blue":c;
     }
   
   function drawShape(){

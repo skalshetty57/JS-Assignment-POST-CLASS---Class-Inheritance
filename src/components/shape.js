@@ -1,14 +1,15 @@
 // declare class
-modeule.exports = class Shape{
+module.exports = class Shape{
     constructor(c){
        this.color=c===undefined?"blue":c;
     }
   
-  function drawShape(){
+  drawShape(){
     console.log("draw the shape"); 
   }
-  function calculateArea(){
+  calculateArea(){
    console.log("area is area"); 
+      return 1;
   }
 }
 

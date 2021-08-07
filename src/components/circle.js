@@ -5,8 +5,9 @@ module.exports=class Circle extends msg{
  constructor(...args){
   super(...args); 
  }
-  function calculateArea(){
+  calculateArea(){
     console.log("2*pi*r"); 
+   return 10;
   }
 }
 
